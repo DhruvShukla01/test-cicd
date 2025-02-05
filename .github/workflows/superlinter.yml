@@ -1,5 +1,7 @@
 name: Super-Linter
 on: [push, pull_request]
+permissions:
+  contents: read
 jobs:
   super-lint:
     name: lint code base
