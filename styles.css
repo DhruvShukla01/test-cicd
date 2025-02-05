@@ -1,0 +1,17 @@
+/* styles.css */
+
+body {
+  margin:0; /* No space after the colon */
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1{
+  font-size: 2em; /* Missing space before the opening brace */
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+  color: #666;
+}
